@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #d9a7c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fffcdc, #d9a7c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.child-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:ivory;
+    padding: 30px;
+    border: 3px solid lavenderblush;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.cont1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title1 {
+    color: rgb(147, 77, 100);
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.actions{
+    padding: 20px;
+}
+
+.isTrue {
+    background-color: palegreen;
+    font-size: 20px;
+    color: #2d5e4c;
+    margin-right: 20px;
+    border: 2px solid rgb(88, 141, 88);
+    transition: all 0.5s ease-in-out;
+}
+
+.isTrue:hover {
+    background-color: rgb(85, 141, 85);    
+}
+
+.isFalse {
+    background-color: #fe958f;
+    font-size: 20px;
+    color: #6f1b2c;
+    border: 2px solid #6c1305;
+    transition: all 0.5s ease-in-out;
+}
+
+.isFalse:hover {
+    background-color: #b86c68;
+}
