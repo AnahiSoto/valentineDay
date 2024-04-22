@@ -28,7 +28,7 @@ function apologiesAccepted() {
     const eleme = document.createElement("div");
     eleme.innerHTML = `
 
-    <div>  
+    <div class="loveGif">  
         <img src="https://i.pinimg.com/originals/94/2d/48/942d4887a06dca5b59f8b74dd909b323.gif" alt="" width = 300px>
         <div class="title1"> gracias, te amo, hay q ir a mimir juntos otra vez </div>
     </div>
